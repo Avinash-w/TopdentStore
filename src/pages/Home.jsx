@@ -1,4 +1,4 @@
-import Productportfolio from "../components/Productportfolio"
+// import Productportfolio from "../components/Productportfolio"
 import Slider from "../components/Slider"
 import Topbrands from "../components/Topbrands"
 import Recommendedproducts from "../components/Recommendedproducts"
@@ -14,7 +14,7 @@ const Home = () => {
         <Slider/>
         <Topbrands/>
         <FeaturesSection />
-        <Productportfolio />
+        {/* <Productportfolio /> */}
         <Recommendedproducts />
         <Cards/ >
         <CTA />
