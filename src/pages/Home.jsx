@@ -4,7 +4,8 @@ import Topbrands from "../components/Topbrands"
 import Recommendedproducts from "../components/Recommendedproducts"
 import Cards from "../components/Cards"
 import CTA from "../components/CTA"
-import Productslider from "../components/Product-slider"
+// import Productslider from "../components/Product-slider"
+import FeaturesSection from "../components/FeaturesSection"
 
 
 const Home = () => {
@@ -12,11 +13,12 @@ const Home = () => {
     <div>
         <Slider/>
         <Topbrands/>
+        <FeaturesSection />
         <Productportfolio />
         <Recommendedproducts />
         <Cards/ >
         <CTA />
-        <Productslider />
+        {/* <Productslider /> */}
      
     </div>
   )
