@@ -23,12 +23,9 @@ const Cards = () => {
           {cardData.map((card, index) => (
             <div
               key={index}
-              className="max-w-md w-full h-auto duration-500 group overflow-hidden relative rounded bg-neutral-50 text-neutral-800 p-10 flex flex-col justify-evenly shadow-lg"
+              className="max-w-md w-full h-auto duration-500 group overflow-hidden relative rounded bg-blue-100 text-neutral-800 p-10 flex flex-col justify-evenly shadow-lg"
             >
-              <div className="absolute blur duration-500 group-hover:blur-none w-72 h-72 rounded-full group-hover:translate-x-12 group-hover:translate-y-12 bg-yellow-200 right-1 -bottom-24"></div>
-              <div className="absolute blur duration-500 group-hover:blur-none w-12 h-12 rounded-full group-hover:translate-x-12 group-hover:translate-y-2 bg-indigo-700 right-12 bottom-12"></div>
-              <div className="absolute blur duration-500 group-hover:blur-none w-36 h-36 rounded-full group-hover:translate-x-12 group-hover:-translate-y-12 bg-red-600 right-1 -top-12"></div>
-              <div className="absolute blur duration-500 group-hover:blur-none w-24 h-24 bg-sky-700 rounded-full group-hover:-translate-x-12"></div>
+              
               <div className="z-10 flex flex-col justify-evenly w-full h-full">
                 <span className="text-xl md:text-2xl font-bold font-poppins mb-4 text-zinc-800">{card.title}</span>
                 <p className="font-roboto text-sm md:text-base">{card.description}</p>
