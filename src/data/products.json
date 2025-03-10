@@ -1,42 +1,58 @@
 [
+	{
+		"id": 1,
+		"name": "Mathieu Plier",
+		"brand": "TOPDENT",
+		"image": "/Product/methu'splier.jpg",
+		"price": 799,
+		"decreption": "The Topdent  Ortho Mathieu Plier is a precision orthodontic instrument designed for a range of delicate procedures in orthodontic practices. Manufactured by TD Orthodontics, a trusted name in orthodontic supplies, this Mathieu Plier exhibits a high level of craftsmanship to meet the demanding needs of orthodontic professionals."
+	},
+	{
+		"id": 2,
+		"name": "O'Brien Plier ",
+		"brand": "TOPDENT",
+		"image": "/Product/oberian.jpg",
+		"price": 799,
+		"decreption": "These pliers are used to bend metal strips or wire used in orthodontic work. Graduated cone to form precise omega and closing loops. Micro-serrated beaks to prevent wire slippage. For precise forming of small helical loops and intraoral tip backbends on stainless steel wires. Ideal for bending square or rectangular archwires, these non-slip, non-marring pliers are especially useful for bending utility archwires, de-torquing the ends of archwires, and bending 90° angles. Precision tips for accurate wire and clasp adjusting and contouring are useful for bending orthodontics appliances. They are used to hold and manipulate wires or create contact points for an adjacent tooth."
+	},
+	{
+		"id": 3,
+		"name": "Tweed Arch Tc",
+		"brand": "TOPDENT",
+		"image": "/Product/tweed arch.jpg",
+		"price": 799,
+		"decreption": "Koden Tweed Arch Tc is a specialized dental instrument designed for precision and durability. Crafted from high-grade surgical stainless steel, it excels in making custom bends in square or rectangular archwires. Its specially designed joints ensure maximum precision and smooth handle rotation, providing consistent performance. With high corrosion resistance and the ability to withstand multiple autoclave cycles without degradation, this plier is heat sterilizable up to 180°C. Ideal for dental professionals, Koden Tweed Arch Forming Plier combines high-temperature resistance with exceptional durability, making it a reliable tool for orthodontic procedures."
+	},
+	{
+		"id": 4,
+		"name": "Topdent Bird Beak Plier",
+		"brand": "TOPDENT",
+		"image": "/Product/birdbeak.jpg",
+		"price": 699,
+		"decreption": " The Topdent Bird Beak Plier is a precision-crafted dental instrument designed for orthodontic applications, offering practitioners a reliable tool for bending and adjusting orthodontic wires with accuracy. Meticulously engineered, this plier supports the fine adjustments necessary for optimal orthodontic treatment outcomes."
+	},
+	{
+		"id": 5,
+		"name": "Topdent Seperating Plier",
+		"brand": "TOPDENT",
+		"image": "/Product/sleratingpiler.jpg",
+		"price": 1199,
+		"decreption": "The Topdent Separating Plier is a specialized dental instrument meticulously designed for the efficient and precise removal of orthodontic bands or crowns during dental procedures. With a fine-tipped, serrated beak, this plier provides dental practitioners with a reliable tool for controlled and non-traumatic separation."
+	},
   {
-    "id": 1,
-    "name": "Metheu's Plier",
-    "brand": "TOPDENT",
-    "image": "/Product/p-1.jpeg",
-    "price": 999,
-    "decreption": "discriptaonnfkjf"
-  },
+		"id": 6,
+		"name": "Hoe Plier",
+		"brand": "TOPDENT",
+		"image": "/Product/sleratingpiler.jpg",
+		"price": 1199,
+		"decreption": "The Topdent Hoe Plier is a specialized dental instrument designed for orthodontic procedures, specifically for shaping and bending orthodontic wires. Crafted with precision and durability in mind, this plier provides orthodontic practitioners with a reliable tool for intricate wire adjustments."
+	},
   {
-    "id": 2,
-    "name": "O Berian Plier ",
-    "brand": "TOPDENT",
-    "image": "https://via.placeholder.com/150",
-    "price": 1499,
-    "decreption": "discriptaon"
-  },
-  {
-    "id": 3,
-    "name": "Bird bead Plier",
-    "brand": "TOPDENT",
-    "image": "https://via.placeholder.com/150",
-    "price": 1999,
-    "decreption": "discriptaon"
-  },
-  {
-    "id": 4,
-    "name": "Slerating Plier",
-    "brand": "TOPDENT",
-    "image": "https://via.placeholder.com/150",
-    "price": 1999,
-    "decreption": "discriptaon"
-  },
-  {
-    "id": 5,
-    "name": "Bird bead Plier",
-    "brand": "TOPDENT",
-    "image": "https://via.placeholder.com/150",
-    "price": 1999,
-    "decreption": "discriptaon"
-  }
+		"id": 7,
+		"name": "Hoe Plier",
+		"brand": "TOPDENT",
+		"image": "/Product/sleratingpiler.jpg",
+		"price": 1999,
+		"decreption": "r crowns during dental procedures. With a fine-tipped, serrated beak, this plier provides dental practitioners with a reliable tool for controlled and non-traumatic separation."
+	}
 ]

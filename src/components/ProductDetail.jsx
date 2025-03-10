@@ -20,6 +20,7 @@ const ProductDetail = () => {
   }
 
   const handleAddToCart = () => {
+    
     addToCart(product);
     toast.success("Product added to cart!", {
       position: "top-right",

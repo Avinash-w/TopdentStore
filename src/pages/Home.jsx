@@ -7,6 +7,7 @@ import CTA from "../components/CTA"
 // import Productslider from "../components/Product-slider"
 import FeaturesSection from "../components/FeaturesSection"
 import Tdp from "../components/Tdp"
+import Ctahome from "../components/Ctahome"
 
 
 const Home = () => {
@@ -18,9 +19,11 @@ const Home = () => {
       
         <Productportfolio />
         <Recommendedproducts />
-        <FeaturesSection />
+        <Ctahome />
+       
         <Cards/ >
         <CTA />
+        <FeaturesSection />
         {/* <Productslider /> */}
      
     </div>

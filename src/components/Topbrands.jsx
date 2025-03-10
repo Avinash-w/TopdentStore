@@ -1,10 +1,22 @@
 const Topbrands = () => {
 	return (
 		<div>
-			<div className="bg-blue-100 py-6 px-6 rounded-2xl mx-auto w-full shadow-lg  sm:grid sm:grid-cols-2 md:grid-cols-4 items-center justify-between gap-10">
+			<div className="bg-blue-100 py-6 px-6 rounded-2xl mx-auto  w-full shadow-lg  sm:grid sm:grid-cols-2 md:grid-cols-4 items-center justify-between gap-10">
 				{/* 20,000+ Products */}
 				<div className="flex items-center gap-2 text-gray-700">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="#46899c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="#46899c"><circle cx="12" cy="12" r="10"/><path d="M8 15a5 5 0 0 0 4 2a5 5 0 0 0 4-2m-1-7s-1 1-1 2c.75-1 2.25-1 3 0M9 8s1 1 1 2c-.75-1-2.25-1-3 0"/></g></svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+						<g
+							fill="none"
+							stroke="#46899c"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="1.5"
+							color="#46899c"
+						>
+							<circle cx="12" cy="12" r="10" />
+							<path d="M8 15a5 5 0 0 0 4 2a5 5 0 0 0 4-2m-1-7s-1 1-1 2c.75-1 2.25-1 3 0M9 8s1 1 1 2c-.75-1-2.25-1-3 0" />
+						</g>
+					</svg>
 					<span className="font-semibold text-xl   sm:text-lg md:text-2xl">100% Customer Satisfaction</span>
 				</div>
 
@@ -16,7 +28,9 @@ const Topbrands = () => {
 							d="M0 6v2h19v15h-6.156c-.446-1.719-1.992-3-3.844-3s-3.398 1.281-3.844 3H4v-5H2v7h3.156c.446 1.719 1.992 3 3.844 3s3.398-1.281 3.844-3h8.312c.446 1.719 1.992 3 3.844 3s3.398-1.281 3.844-3H32v-8.156l-.063-.157l-2-6L29.72 10H21V6zm1 4v2h9v-2zm20 2h7.281L30 17.125V23h-1.156c-.446-1.719-1.992-3-3.844-3s-3.398 1.281-3.844 3H21zM2 14v2h6v-2zm7 8c1.117 0 2 .883 2 2s-.883 2-2 2s-2-.883-2-2s.883-2 2-2m16 0c1.117 0 2 .883 2 2s-.883 2-2 2s-2-.883-2-2s.883-2 2-2"
 						/>
 					</svg>
-					<span className="font-semibold text-xl   sm:text-lg md:text-2xl   ">Free Shipping on order of 5000</span>
+					<span className="font-semibold text-xl   sm:text-lg md:text-2xl   ">
+						Free Shipping on order of 5000
+					</span>
 				</div>
 
 				{/* 100% Original */}
