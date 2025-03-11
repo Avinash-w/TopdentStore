@@ -25,16 +25,16 @@ const Products = () => {
   return (
     <div className="container mx-auto py-10 px-4">
       {/* Search & Filter Section */}
-      <h4 className="text-2xl font-bold text-blue-700 text-center md:text-5xl">Our Product</h4>
-      <div className="flex flex-wrap justify-center md:justify-end gap-4 mb-6">
+      <h4 className="text-2xl font-bold text-blue-700 text-center md:text-5xl shadow-lg">Our Product</h4>
+      <div className="flex flex-wrap justify-center md:justify-end gap-4 mb-6 bg-blue-50 p-2 rounded-xl">
         
-        <input type="text" placeholder="Search Product" className="border p-2 rounded-md w-60"
+        <input type="text" placeholder="Search Product" className="border  border-blue-500 p-2 rounded-md w-60"
           value={searchName} onChange={(e) => setSearchName(e.target.value)}
         />
-        <input type="number" placeholder="Min Price" className="border p-2 rounded-md w-32"
+        <input type="number" placeholder="Min Price" className="border border-blue-500 p-2 rounded-md w-32"
           value={minPrice} onChange={(e) => setMinPrice(e.target.value)}
         />
-        <input type="number" placeholder="Max Price" className="border p-2 rounded-md w-32"
+        <input type="number" placeholder="Max Price" className="border border-blue-500 p-2 rounded-md w-32"
           value={maxPrice} onChange={(e) => setMaxPrice(e.target.value)}
         />
       </div>

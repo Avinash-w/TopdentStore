@@ -43,12 +43,13 @@ const ProductDetail = () => {
       <ToastContainer />
 
       <div className="flex flex-col md:flex-row items-center gap-6">
-        <img src={product.image} alt={product.name} className="w-96 h-96 rounded shadow-md" />
+        <img src={product.image} alt={product.name} className="w-96 h-96 rounded shadow-md " />
         <div>
-          <h1 className="text-3xl font-bold">{product.name}</h1>
-          <p className="text-lg text-gray-600">Brand: {product.brand}</p>
-          <p className="text-lg text-gray-600">Description: {product.decreption}</p>
-          <p className="text-xl font-semibold text-blue-500">₹{product.price}</p>
+          <h1 className="text-3xl text-blue-900 font-bold">{product.name}</h1>
+          <p className="text-lg text-red-700 font-bold">Brand: {product.brand}</p>
+          <p className="text-lg text-slate-900">Description: {product.decreption}</p>
+          <p className="text-xl font-bold text-blue-950">₹{product.price}</p>
+          <p className="text-sm text-slate-500">Exclusive of 12% GST</p>
 
           <button
             onClick={handleAddToCart}
@@ -60,7 +61,7 @@ const ProductDetail = () => {
       </div>
       {/* Recommended Products Section */}
       <div className="mt-10">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">Recommended Products</h2>
+        <h2 className="text-sm sm:text-2xl text-center text-sky-600 font-bold">Recommended Products</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {recommendedProducts.map((product) => (
             <ProductCard key={product.id} {...product} />

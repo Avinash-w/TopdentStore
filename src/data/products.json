@@ -94,5 +94,21 @@
 		"image": "/Product/Decarosa.jpg",
 		"price": 799,
 		"decreption": "Topdent Delarosa Plier is a specialized dental instrument designed for precise orthodontic wire bending and adjustments. Meticulously crafted for accuracy and ease of use, this plier ensures orthodontic practitioners have a reliable tool for achieving intricate wire configurations and maintaining optimal patient treatment. "
+	},
+	{
+		"id": 13,
+		"name": " Composite Instrument Set of 8 (Solid)",
+		"brand": "TOPDENT",
+		"image": "/Product/CompositeInstrument.jpg",
+		"price": 2199,
+		"decreption": "The Topdent Plastic Composite Filling Instrument is a specialized dental tool designed for the precise placement and shaping of composite filling materials during restorative procedures. Crafted with a plastic tip, this instrument offers dental practitioners a reliable and gentle tool for accurate contouring and sculpting of dental restorations. "
+	},
+	{
+		"id": 14,
+		"name": "  Extraction Forceps - Set of 12",
+		"brand": "TOPDENT",
+		"image": "/Product/DSC_3676.jpg",
+		"price": 7499,
+		"decreption": "Topdent Extraction Forceps are expertly crafted dental instruments designed to facilitate efficient and precise tooth extractions. These forceps are meticulously engineered to provide practitioners with a reliable tool for various extraction procedures while minimizing trauma to surrounding tissues. "
 	}
 ]
