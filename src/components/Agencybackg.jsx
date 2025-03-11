@@ -18,7 +18,7 @@ const Agencybackg = () => {
   
             <p className="text-lg text-gray-700 leading-relaxed">
               We at TOPDENT are now headed by a qualified medical professional,{" "}
-              <span className="font-semibold text-indigo-700">Dr. Vishal Sood</span>, striving to carry on the legacy.
+              <span className="font-semibold text-indigo-700">Dr. Vishal Sood & Ritu Sood </span>, striving to carry on the legacy.
               <br />
               At TOP DENT, we believe in{" "}
               <span className="font-semibold">quality, reliability, ease of business, and competitive pricing.</span> 
@@ -26,14 +26,14 @@ const Agencybackg = () => {
             </p>
   
             {/* Product List */}
-            <div className="bg-gray-100 p-4 rounded-lg shadow">
+            {/* <div className="bg-gray-100 p-4 rounded-lg shadow">
               <h3 className="text-xl font-semibold text-gray-900">We Are the Sole Distributors of:</h3>
               <ul className="list-disc pl-5 text-gray-700 mt-2">
                 <li>TDI USA Dental Light Cure (LED)</li>
                 <li>TDI Scaler Unit</li>
                 <li>Teeth Set (Japan and Turkey)</li>
               </ul>
-            </div>
+            </div> */}
   
             <p className="text-lg text-gray-700 leading-relaxed">
               We also partner with various small & big manufacturers, traders, and importers of dental

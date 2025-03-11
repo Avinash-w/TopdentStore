@@ -2,19 +2,20 @@ const FeaturesSection = () => {
     const features = [
       {
         text: "Three-layer quality check for all products.",
-        image: "./src/assets/images/Check.png", // Update with actual image path
+        image: "/images/Check.png", // Update with actual image path
         bgColor: "bg-rose-100",
       },
       {
         text: "Authentic products for doctors, verified by doctors.",
-        image: "./src/assets/images/dr.png", // Update with actual image path
+        image: "/images/dr.png", // Update with actual image path
         bgColor: "bg-pink-100",
       },
       {
         text: "Latest dental products at your doorstep by the click of a button.",
-        image: "./src/assets/images/Mandelevry.png", // Update with actual image path
+        image: "/images/Mandelevry.png", // Update with actual image path
         bgColor: "bg-blue-100",
       },
+      
     ];
   
     return (

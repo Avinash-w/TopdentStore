@@ -4,18 +4,18 @@ import ProductCard from "../components/ProductCard";
 
 const Products = () => {
   const [products] = useState(productsData); // Directly use imported data
-  const [searchBrand, setSearchBrand] = useState("");
+  const [searchName, setSearchName] = useState("");
   const [minPrice, setMinPrice] = useState("");
   const [maxPrice, setMaxPrice] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 10; // Show 10 products per page
+  const itemsPerPage = 9; // Show 10 products per page
 
-  // Filter products based on brand and price range
+  // Filter products based on name and price range
   const filteredProducts = products.filter((product) => {
-    const matchesBrand = searchBrand ? product.brand.toLowerCase().includes(searchBrand.toLowerCase()) : true;
+    const matchesName = searchName ? product.name.toLowerCase().includes(searchName.toLowerCase()) : true;
     const matchesMinPrice = minPrice ? product.price >= parseInt(minPrice) : true;
     const matchesMaxPrice = maxPrice ? product.price <= parseInt(maxPrice) : true;
-    return matchesBrand && matchesMinPrice && matchesMaxPrice;
+    return matchesName && matchesMinPrice && matchesMaxPrice;
   });
 
   // Pagination Logic
@@ -28,8 +28,8 @@ const Products = () => {
       <h4 className="text-2xl font-bold text-blue-700 text-center md:text-5xl">Our Product</h4>
       <div className="flex flex-wrap justify-center md:justify-end gap-4 mb-6">
         
-        <input type="text" placeholder="Search Brand" className="border p-2 rounded-md w-60"
-          value={searchBrand} onChange={(e) => setSearchBrand(e.target.value)}
+        <input type="text" placeholder="Search Product" className="border p-2 rounded-md w-60"
+          value={searchName} onChange={(e) => setSearchName(e.target.value)}
         />
         <input type="number" placeholder="Min Price" className="border p-2 rounded-md w-32"
           value={minPrice} onChange={(e) => setMinPrice(e.target.value)}

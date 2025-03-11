@@ -39,7 +39,7 @@
 		"price": 1199,
 		"decreption": "The Topdent Separating Plier is a specialized dental instrument meticulously designed for the efficient and precise removal of orthodontic bands or crowns during dental procedures. With a fine-tipped, serrated beak, this plier provides dental practitioners with a reliable tool for controlled and non-traumatic separation."
 	},
-  {
+	{
 		"id": 6,
 		"name": "Hoe Plier",
 		"brand": "TOPDENT",
@@ -47,12 +47,52 @@
 		"price": 1199,
 		"decreption": "The Topdent Hoe Plier is a specialized dental instrument designed for orthodontic procedures, specifically for shaping and bending orthodontic wires. Crafted with precision and durability in mind, this plier provides orthodontic practitioners with a reliable tool for intricate wire adjustments."
 	},
-  {
+	{
 		"id": 7,
-		"name": "Hoe Plier",
+		"name": "Topdent Hard Wire Cutter",
 		"brand": "TOPDENT",
-		"image": "/Product/sleratingpiler.jpg",
-		"price": 1999,
-		"decreption": "r crowns during dental procedures. With a fine-tipped, serrated beak, this plier provides dental practitioners with a reliable tool for controlled and non-traumatic separation."
+		"image": "/Product/hardwirecottertc.jpg",
+		"price": 1599,
+		"decreption": "The Topdent Hard Wire Cutter is a specialized dental instrument designed for precision cutting of hard wires used in orthodontic procedures. Meticulously crafted for accuracy and durability, this cutter ensures orthodontic practitioners have a reliable tool for achieving clean and controlled cuts in a variety of hard wires."
+	},
+	{
+		"id": 8,
+		"name": "Distal Wire Cutter",
+		"brand": "TOPDENT",
+		"image": "/Product/distalendcutter.jpg",
+		"price": 1599,
+		"decreption": "The Topdent Distal Wire Cutter is a specialized dental instrument designed for precision cutting of distal ends of orthodontic wires. Meticulously crafted for accuracy and durability, this cutter ensures orthodontic practitioners have a reliable tool for achieving clean and controlled cuts in various wire types."
+	},
+	{
+		"id": 9,
+		"name": "Pin and Ligature Curved Tc",
+		"brand": "TOPDENT",
+		"image": "/Product/pintlgatuecurved.jpg",
+		"price": 1599,
+		"decreption": " The Topdent Pin and Ligature Wire Cutter is a specialized dental instrument designed for precision cutting of pins and ligature wires during orthodontic procedures. Meticulously crafted with fine blades and ergonomic features, this cutter provides orthodontic practitioners with a reliable tool for accurate and controlled wire management."
+	},
+	{
+		"id": 10,
+		"name": "Weingart (TC) ",
+		"brand": "TOPDENT",
+		"image": "/Product/pintlipaturetc.jpg",
+		"price": 1199,
+		"decreption": " Weingart TC pliers come with matching serrated tips that provide maximum wire control at a convenient working angle and their inserted serrated tips prevent the wire from slipping while holding round, square and rectangular wire up to .030."
+	},
+	{
+		"id": 11,
+		"name": "Topdent Johnson Plier ",
+		"brand": "TOPDENT",
+		"image": "/Product/johnson_band.jpg",
+		"price": 999,
+		"decreption": " Johnson Contouring Pliers 10/116 are meticulously crafted tools tailored for the precise contouring and adaptation of bands and crowns in orthodontic procedures. Featuring a unique design with one concave and one convex beak, these pliers offer unparalleled versatility in reshaping and refining bands to ensure optimal fit and comfort for patients. Orthodontists can effortlessly re-contour band edges that may become misshapen during replacement procedures, ensuring a seamless and snug fit against the tooth surface. Crafted from high-quality stainless steel, these pliers maintain their shape over time, providing reliable performance with each use. Additionally, their corrosion-resistant properties and autoclavable nature ensure hassle-free maintenance and sterilization, meeting stringent hygiene standards in dental practices. With their ergonomic design and precision engineering, the Waldent Orthodontic Johnson Contouring Pliers 10/116 exemplify excellence in orthodontic instrumentation, enhancing efficiency and accuracy in clinical settings."
+	},
+	{
+		"id": 12,
+		"name": " Delarosa Plier ",
+		"brand": "TOPDENT",
+		"image": "/Product/Decarosa.jpg",
+		"price": 799,
+		"decreption": "Topdent Delarosa Plier is a specialized dental instrument designed for precise orthodontic wire bending and adjustments. Meticulously crafted for accuracy and ease of use, this plier ensures orthodontic practitioners have a reliable tool for achieving intricate wire configurations and maintaining optimal patient treatment. "
 	}
 ]
