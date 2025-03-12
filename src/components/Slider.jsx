@@ -7,8 +7,8 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 // Correctly resolve image paths in Vite
 
 const slides = [
-  { id: 1, img: "/images/slide1.jpeg" },
-  { id: 2, img: "/images/slide2.jpeg" },
+  { id: 1, img: "/images/slidernew.png" },
+  { id: 2, img: "/images/slidernew2.png" },
 ];
 export default function App() {
   return (

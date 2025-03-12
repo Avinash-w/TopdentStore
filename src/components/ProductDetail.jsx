@@ -50,6 +50,7 @@ const ProductDetail = () => {
           <p className="text-lg text-slate-900">Description: {product.decreption}</p>
           <p className="text-xl font-bold text-blue-950">₹{product.price}</p>
           <p className="text-sm text-slate-500">Exclusive of 12% GST</p>
+          
 
           <button
             onClick={handleAddToCart}

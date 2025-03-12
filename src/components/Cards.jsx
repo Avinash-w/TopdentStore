@@ -27,8 +27,8 @@ const Cards = () => {
             >
               
               <div className="z-10 flex flex-col justify-evenly w-full h-full">
-                <span className="text-xl md:text-2xl font-bold font-poppins mb-4 text-zinc-800">{card.title}</span>
-                <p className="font-roboto text-sm md:text-base">{card.description}</p>
+                <span className="text-xl md:text-2xl font-bold font-poppins mb-4 text-red-800">{card.title}</span>
+                <p className="font-roboto text-sm text-slate-900 md:text-base">{card.description}</p>
               </div>
             </div>
           ))}
