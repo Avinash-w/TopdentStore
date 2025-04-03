@@ -8,6 +8,7 @@ import CTA from "../components/CTA"
 import FeaturesSection from "../components/FeaturesSection"
 import Tdp from "../components/Tdp"
 import Ctahome from "../components/Ctahome"
+import Bestseller from "../components/bestseller"
 
 
 const Home = () => {
@@ -16,11 +17,10 @@ const Home = () => {
         <Slider/>
         <Topbrands/>
         <Tdp />
-      
         <Productportfolio />
         <Recommendedproducts />
         <Ctahome />
-       
+        <Bestseller />
         <Cards/ >
         <CTA />
         <FeaturesSection />

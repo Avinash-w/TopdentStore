@@ -25,8 +25,8 @@ const Products = () => {
   return (
     <div className="container mx-auto py-10 px-4">
       {/* Search & Filter Section */}
-      <h4 className="text-2xl font-bold text-blue-700 text-center md:text-5xl">Our Product</h4>
-      <div className="flex flex-wrap justify-center md:justify-end gap-4 mb-6 bg-blue-50 p-2 rounded-xl">
+      
+      <div className="flex flex-wrap justify-center md:justify-end gap-4 mb-6 bg-[#F8F9FA] p-2 rounded-xl">
         
         <input type="text" placeholder="Search Product" className="border  border-blue-500 p-2 rounded-md w-60"
           value={searchName} onChange={(e) => setSearchName(e.target.value)}
@@ -50,11 +50,11 @@ const Products = () => {
 
       {/* Pagination Controls */}
       {totalPages > 1 && (
-        <div className="flex justify-center space-x-4 mt-6">
+        <div className="flex justify-center space-x-4 mt-6 ">
           <button
             onClick={() => setCurrentPage(currentPage - 1)}
             disabled={currentPage === 1}
-            className="px-4 py-2 border rounded bg-gray-200 hover:bg-gray-300 disabled:opacity-50"
+            className="px-4 h-8 border rounded bg-gray-200 hover:bg-gray-300 disabled:opacity-50"
           >
             Prev
           </button>
@@ -62,7 +62,7 @@ const Products = () => {
           <button
             onClick={() => setCurrentPage(currentPage + 1)}
             disabled={currentPage === totalPages}
-            className="px-4 py-2 border rounded bg-gray-200 hover:bg-gray-300 disabled:opacity-50"
+            className="px-5 h-8 border rounded bg-gray-200 hover:bg-gray-300 disabled:opacity-50"
           >
             Next
           </button>

@@ -33,7 +33,7 @@ const Navbar = () => {
 							<Link
 								key={link.id}
 								to={link.path}
-								className="text-blue-900 hover:text-red-600 transition-colors text-xl font-bold "
+								className="text-[#0077B6] hover:text-red-500 transition-colors text-xl font-bold "
 							>
 								{link.title}
 							</Link>
@@ -43,13 +43,22 @@ const Navbar = () => {
 					{/* Right Section */}
 					<div className="flex  items-center space-x-4">
 						{/* Search Bar */}
-            <div className='hidden lg:flex gap-2 p-3'>
-              <div><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 640 512"><path fill="#a00909" d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H112C85.5 0 64 21.5 64 48v48H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h272c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H40c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H64v128c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16M160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m80-208H416V144h44.1l99.9 99.9z"/></svg></div>
-              <div className=''>
-                <p className='text-blue-900 hover:text-red-600 transition-colors text-xl font-bold'>Free Shipping</p>
-                <p className='text-lg'>on all orders over ₹5000</p>
-              </div>
-            </div>
+						<div className="hidden lg:flex gap-2 p-3">
+							<div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 640 512">
+									<path
+										fill="#0077B6"
+										d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H112C85.5 0 64 21.5 64 48v48H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h272c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H40c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H64v128c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16M160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m80-208H416V144h44.1l99.9 99.9z"
+									/>
+								</svg>
+							</div>
+							<div className="">
+								<p className="hover:text-blue-900 text-red-500 transition-colors text-xl font-bold">
+									Free Shipping
+								</p>
+								<p className="text-lg text[#333333]">on all orders over ₹5000</p>
+							</div>
+						</div>
 						<div className=" hidden md:flex    px-3 py-2">
 							<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 14 14">
 								<path
@@ -61,8 +70,8 @@ const Navbar = () => {
 									stroke-width="1"
 								/>
 							</svg>
-							<p className="ml-1 text-blue-900 hover:text-red-600 transition-colors text-xl font-bold">
-								Help
+							<p className="ml-1 text-blue-900 hover:text-red-500 transition-colors text-xl font-bold">
+							support
 							</p>
 						</div>
 
@@ -84,26 +93,22 @@ const Navbar = () => {
 						{/* User Account Link */}
 						<Link
 							to="/cart"
-							className="text-blue-900 hover:text-red-600 transition-colors text-xl font-bold"
+							className="text-blue-900 hover:text-red-500 transition-colors text-xl font-bold"
 						>
 							Cart
 						</Link>
 
 						<Link
-              to="/contact"
-              className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300 hidden md:block"
-            >
-              Contact Us
-            </Link>
-
+							to="/contact"
+							className="bg-red-500 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-lg transition duration-300 hidden md:block"
+						>
+							Contact Us
+						</Link>
 
 						{/* Mobile Menu Button */}
-						<button
-              onClick={toggleMenu}
-              className="md:hidden p-2 rounded-lg hover:bg-gray-200"
-            >
-              {isMenuOpen ? "✖" : "☰"}
-            </button>
+						<button onClick={toggleMenu} className="md:hidden p-2 rounded-lg hover:bg-gray-200">
+							{isMenuOpen ? '✖' : '☰'}
+						</button>
 					</div>
 				</div>
 
@@ -121,13 +126,27 @@ const Navbar = () => {
 							</Link>
 						))}
 						<div className="px-4">
-							<div className=' lg:flex gap-2 p-3'>
-              <div><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 640 512"><path fill="#a00909" d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H112C85.5 0 64 21.5 64 48v48H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h272c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H40c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H64v128c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16M160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m80-208H416V144h44.1l99.9 99.9z"/></svg></div>
-              <div className=''>
-                <p className='text-blue-900 hover:text-red-600 transition-colors text-xl font-bold'>Free Shipping</p>
-                <p className='text-lg'>on all orders over ₹5000</p>
-              </div>
-            </div>
+							<div className=" lg:flex gap-2 p-3">
+								<div>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="64"
+										height="64"
+										viewBox="0 0 640 512"
+									>
+										<path
+											fill="#a00909"
+											d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H112C85.5 0 64 21.5 64 48v48H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h272c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H40c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h208c4.4 0 8 3.6 8 8v16c0 4.4-3.6 8-8 8H64v128c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16M160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48m80-208H416V144h44.1l99.9 99.9z"
+										/>
+									</svg>
+								</div>
+								<div className="">
+									<p className="text-blue-900 hover:text-red-600 transition-colors text-xl font-bold">
+										Free Shipping
+									</p>
+									<p className="text-lg">on all orders over ₹5000</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				)}

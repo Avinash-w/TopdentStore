@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import Mapma from  "../components/MapEmbed"
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 py-10">
@@ -54,6 +54,9 @@ const Footer = () => {
           <h3 className="text-lg font-semibold text-white">Get in Touch</h3>
           <p className="mt-2 text-gray-400">📍 C-125,Preet Vihar,Delhi-110092</p>
           <p className="mt-2 text-gray-400">📞 +91 9910011085 / 7217733632</p>
+          <div>
+            <Mapma/>
+          </div>
           
 
           {/* Social Media Icons */}
