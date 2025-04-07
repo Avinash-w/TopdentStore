@@ -10,13 +10,14 @@ import ProductDetail from "./components/ProductDetail";
 import Cart from "./pages/Cart";
 import { CartProvider } from "./context/CartContext";
 import Checkout from "./pages/Checkout";
+import ThankYou from './pages/ThankYou';
 
 function App() {
   return (
     <CartProvider>
     <Router> 
       <Navbar />
-      <div className="pt-20 ">
+      <div className="pt-10 ">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
@@ -26,6 +27,7 @@ function App() {
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/thank-you" element={<ThankYou />} />
         </Routes>
       </div>
       <Footer /> {/* Use Footer component */}

@@ -331,9 +331,9 @@
 		"id": 42,
 		"name": "Periosteal Surgical Elevators - Small",
 		"brand":  "TOPDENT",
-		"image": "/Product/PeriostealSurgicalEle -Small.avif",
+		"image": "/Product/PeriostealSurgicalEle.avif",
 		"price": 250,
-		"decreption": " "
+		"decreption": " Topdent Periosteal Surgical Elevators in the Small size variant are meticulously crafted dental instruments designed to facilitate atraumatic and precise elevation of the periosteum during oral surgical procedures. These elevators are engineered with precision to provide dental professionals with the control and maneuverability needed for delicate tissue management."
 	},
 	{
 		"id": 43,
@@ -681,11 +681,11 @@
 	},
 	{
 		"id": 86,
-		"name": "",
+		"name": "Rodium Mouth Mirror",
 		"brand":  "TOPDENT",
-		"image": "/Product/PlainMouthMirror.avif",
-		"price": 500,
-		"decreption": " "
+		"image": "/Product/PlainMouth-Mirror.avif",
+		"price": 1100,
+		"decreption": "The Topdent Rhodium Mouth Mirror is an advanced dental diagnostic instrument, meticulously designed for superior clarity and durability in intraoral examinations. Featuring a reflective surface coated with rhodium, this mirror ensures optimal visibility, making it an essential tool for precise diagnostics. "
 	},
 	{
 		"id": 87 ,
@@ -699,7 +699,7 @@
 		"id": 88 ,
 		"name": "Stainless Steel Autoclavable Instrument Tray - With 4-Slot",
 		"brand":  "TOPDENT",
-		"image": "/Product/StainlessSteelAutoclavable4-Slot.avif.avif",
+		"image": "/Product/StainlessSteelAutoclavable4-Slot.avif",
 		"price": 900,
 		"decreption": "The Topdent Stainless Steel Autoclavable Instrument Tray is a versatile and durable solution for organizing and sterilizing dental instruments. Crafted from high-quality stainless steel, this tray ensures the safe and efficient handling of instruments throughout various dental procedures. "
 	},

@@ -22,7 +22,7 @@ const ProductPortfolio = () => {
         <SwiperSlide>
           <div
             className="h-65 bg-cover bg-center rounded-lg shadow-lg"
-            style={{ backgroundImage: "url('/images/home-1.webp')" }}
+            style={{ backgroundImage: "url('/images/1.jpg')" }}
           ></div>
         </SwiperSlide>
 
@@ -30,7 +30,7 @@ const ProductPortfolio = () => {
         <SwiperSlide>
           <div
             className="h-65 bg-cover bg-center rounded-lg shadow-lg"
-            style={{ backgroundImage: "url('/images/home-2.webp')" }}
+            style={{ backgroundImage: "url('/images/2.jpg')" }}
           ></div>
         </SwiperSlide>
 
@@ -38,19 +38,19 @@ const ProductPortfolio = () => {
         <SwiperSlide>
           <div
             className="h-65 bg-cover bg-center rounded-lg shadow-lg"
-            style={{ backgroundImage: "url('/images/home-3.webp')" }}
+            style={{ backgroundImage: "url('/images/3.jpg')" }}
           ></div>
         </SwiperSlide>
         <SwiperSlide>
           <div
             className="h-65 bg-cover bg-center rounded-lg shadow-lg"
-            style={{ backgroundImage: "url('/images/home-4.webp')" }}
+            style={{ backgroundImage: "url('/images/4.jpg')" }}
           ></div>
         </SwiperSlide>
         <SwiperSlide>
           <div
             className="h-65 bg-cover bg-center rounded-lg shadow-lg"
-            style={{ backgroundImage: "url('/images/home-5.webp')" }}
+            style={{ backgroundImage: "url('/images/5.jpg')" }}
           ></div>
         </SwiperSlide>
         

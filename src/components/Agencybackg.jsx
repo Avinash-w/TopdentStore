@@ -44,7 +44,7 @@ const Agencybackg = () => {
           {/* Image Section */}
           <div className="flex justify-center">
             <img
-              src="https://img.freepik.com/free-photo/close-up-dentist-their-clinic_23-2149206233.jpg?t=st=1740116333~exp=1740119933~hmac=8c85fdca284b164fa1156f78c6c616fcd62f7b57f531c63a1a819071ac499872&w=360"
+              src="https://i.pinimg.com/736x/c5/b4/83/c5b483dfd3a75effe0b99f2767dd0f03.jpg"
               alt="Dental Clinic"
               className="w-full md:w-[400px] rounded-lg shadow-lg"
             />

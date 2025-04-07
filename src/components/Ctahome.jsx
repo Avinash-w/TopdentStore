@@ -1,12 +1,12 @@
-import imageone from '../assets/images/topdent-banner.webp';
-import imagetow from '../assets/images/teethsmil.webp';
-import imageright from '../assets/images/topdentmaxbit.webp';
+import imageone from '/images/slide2.jpeg';
+// import imagetow from '/images/dentistday.jpg';
+// import imageright from '/images/sideimg.jpg';
 
 
 const Ctahome = () => {
 	return (
 		<div className="flex flex-wrap mt-8 md:mt-16">
-			<div className="w-full hidden sm:block md:w-2/12  text-center">
+			{/* <div className="w-full hidden sm:block md:w-4/12  text-center">
 				<div
 					className="relative text-white py-16 px-8 text-center rounded-lg shadow-lg overflow-hidden"
 					style={{
@@ -18,9 +18,9 @@ const Ctahome = () => {
 						width: '100%'
 					}}
 				/>
-			</div>
+			</div> */}
 
-			<div className="w-full  md:w-8/12   text-center">
+			<div className="w-full  md:w-12/12   text-center">
 				<div
 					className="relative text-white py-16 px-8 text-center rounded-lg shadow-lg overflow-hidden"
 					style={{
@@ -32,21 +32,10 @@ const Ctahome = () => {
 						width: '100%'
 					}}
 				/>
+				
 			</div>
 
-			<div className="w-full hidden sm:block md:w-2/12 bg-gray-200  text-center">
-            <div
-					className="relative text-white py-16 px-8 text-center rounded-lg shadow-lg overflow-hidden"
-					style={{
-						backgroundImage: `url("${imageright}")`,
-						backgroundSize: 'cover',
-						backgroundPosition: 'center',
-						backgroundRepeat: 'no-repeat',
-						minHeight: '300px',
-						width: '100%'
-					}}
-				/>
-            </div>
+			
 		</div>
 	);
 };

@@ -14,9 +14,9 @@ const Bestseller = () => {
   return (
     <div className="container mx-auto py-10 mt-8 md:mt-16">
       <h3 className="text-sm sm:text-lg text-center text-red-600 font-bold">
-        Best Seller Products
+        Topdent Products
       </h3>
-      <h2 className="text-lg text-center sm:text-5xl font-bold text-[#0077B6] mb-10">
+      <h2 className="text-lg text-center sm:text-5xl font-bold text-[#082a46] mb-10">
         Top Seller Products
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">

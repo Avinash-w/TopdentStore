@@ -6,10 +6,10 @@ import Billing from '../components/Billing';
 const Checkout = () => {
 	const navigate = useNavigate();
 	const { cart } = useCart();
-	const [isPaymentOpen, setIsPaymentOpen] = useState(false); // State for Payment Modal
 
-	// Form Data
-	const [formData, setFormData] = useState({
+	const [ isPaymentOpen, setIsPaymentOpen ] = useState(false);
+	const [ selectedPayment, setSelectedPayment ] = useState('');
+	const [ formData, setFormData ] = useState({
 		email: '',
 		firstName: '',
 		lastName: '',
@@ -28,108 +28,209 @@ const Checkout = () => {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		console.log('Order Details:', formData);
-		
-
-		// Open Payment Modal instead of navigating
 		setIsPaymentOpen(true);
 	};
 
-	// Calculate subtotal
+	const generateOrderId = () => {
+		const timestamp = Date.now().toString().slice(-6);
+		const randomPart = Math.random().toString(36).substring(2, 6).toUpperCase();
+		return `ORD-${timestamp}-${randomPart}`;
+	};
+
 	const subtotal = cart.reduce((total, item) => total + item.price * item.quantity, 0);
 	const tax = subtotal * 0.12;
 	const shipping = subtotal > 0 ? 150 : 0;
 	const grandTotal = subtotal + tax + shipping;
 
+	const handleConfirmOrder = () => {
+		const newOrderId = generateOrderId();
+		alert(`Order Placed Successfully!\nYour Order ID: ${newOrderId}`);
+		setIsPaymentOpen(false);
+		navigate('/thank-you', { state: { orderId: newOrderId } });
+	};
+
 	return (
 		<div className="flex flex-col md:flex-row justify-center p-6 mt-4 min-h-screen">
-			{/* Left Section - Checkout Form */}
+			{/* Left Section */}
 			<div className="w-full md:w-2/3 bg-white p-6 rounded-lg shadow-md">
 				<h2 className="text-2xl text-red-700 text-center font-semibold mb-4">Shipping Details</h2>
-
-				<form onSubmit={handleSubmit} className="space-y-6 bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200">
+				<form
+					onSubmit={handleSubmit}
+					className="space-y-6 bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200"
+				>
 					<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-						<input type="text" name="firstName" placeholder="First Name" onChange={handleChange} className="p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
-						<input type="text" name="lastName" placeholder="Last Name" onChange={handleChange} className="p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
+						<input
+							type="text"
+							name="firstName"
+							placeholder="First Name"
+							onChange={handleChange}
+							required
+							className="p-3 border rounded"
+						/>
+						<input
+							type="text"
+							name="lastName"
+							placeholder="Last Name"
+							onChange={handleChange}
+							required
+							className="p-3 border rounded"
+						/>
 					</div>
-					<div>
-						<label className="block text-gray-700 font-medium">Email Address</label>
-						<input type="email" name="email" placeholder="Enter your email" value={formData.email} onChange={handleChange} className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
-					</div>
-					<input type="text" name="company" placeholder="Company (Optional)" onChange={handleChange} className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" />
-					<input type="text" name="address" placeholder="Address" onChange={handleChange} className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
-					<input type="text" name="apartment" placeholder="Apartment, suite, etc. (Optional)" onChange={handleChange} className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+					<input
+						type="email"
+						name="email"
+						placeholder="Email"
+						onChange={handleChange}
+						required
+						className="w-full p-3 border rounded"
+					/>
+					<input
+						type="text"
+						name="company"
+						placeholder="Company (Optional)"
+						onChange={handleChange}
+						className="w-full p-3 border rounded"
+					/>
+					<input
+						type="text"
+						name="address"
+						placeholder="Address"
+						onChange={handleChange}
+						required
+						className="w-full p-3 border rounded"
+					/>
+					<input
+						type="text"
+						name="apartment"
+						placeholder="Apartment (Optional)"
+						onChange={handleChange}
+						className="w-full p-3 border rounded"
+					/>
 					<div className="grid grid-cols-3 gap-4">
-						<input type="text" name="city" placeholder="City" onChange={handleChange} className="p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
-						<input type="text" name="state" placeholder="State" onChange={handleChange} className="p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
-						<input type="text" name="zip" placeholder="ZIP Code" onChange={handleChange} className="p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" required />
+						<input
+							type="text"
+							name="city"
+							placeholder="City"
+							onChange={handleChange}
+							required
+							className="p-3 border rounded"
+						/>
+						<input
+							type="text"
+							name="state"
+							placeholder="State"
+							onChange={handleChange}
+							required
+							className="p-3 border rounded"
+						/>
+						<input
+							type="text"
+							name="zip"
+							placeholder="ZIP"
+							onChange={handleChange}
+							required
+							className="p-3 border rounded"
+						/>
 					</div>
-					<input type="text" name="phone" placeholder="Phone (Optional)" onChange={handleChange} className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none" />
+					<input
+						type="text"
+						name="phone"
+						placeholder="Phone (Optional)"
+						onChange={handleChange}
+						className="w-full p-3 border rounded"
+					/>
 
-					<button type="submit" className="w-full bg-blue-500 text-white py-3 rounded-lg font-semibold text-lg transition hover:bg-blue-800">
+					<button type="submit" className="w-full bg-blue-600 text-white py-3 rounded">
 						Continue to Payment
 					</button>
 				</form>
 			</div>
 
-			{/* Right Section - Order Summary */}
-			<div className="w-full md:w-1/3 bg-white p-6 rounded-lg shadow-md mt-6 md:mt-0 md:ml-6">
-				<div className="bg-gray-50 p-6 rounded-lg shadow-lg border border-gray-200 w-full mb-5">
-					<h3 className="text-2xl text-red-700 font-bold mb-4">Product in Cart</h3>
-					<div className="space-y-4">
-						{cart.map((item) => (
-							<div key={item.id} className="flex justify-between border-b pb-2">
-								<div>
-									<p className="font-medium">{item.name}</p>
-									<p className="text-sm text-red-500">Qty: {item.quantity}</p>
-                                    
-								</div>
-                                
-								<p className="font-semibold text-blue-800">
-									₹{(item.price * item.quantity).toFixed(2)}
-								</p>
-                            
-							</div>
-                            
-						))}
-					</div>
-                    <div>
-                    <p className="text-center text-blue-900 mt-4">
-							Total Payable Amount: <strong>₹{grandTotal.toFixed(2)}</strong>
+			{/* Order Summary */}
+			<div className="w-full md:w-1/3 p-6 bg-white shadow-md rounded-lg mt-6 md:mt-0 md:ml-6">
+				<h3 className="text-2xl text-red-700 font-bold mb-4">Your Cart</h3>
+				{cart.map((item) => (
+					<div key={item.id} className="flex justify-between border-b pb-2 mb-2">
+						<p>
+							{item.name} (x{item.quantity})
 						</p>
-                       
-                    </div>
+						<p>₹{item.price * item.quantity}</p>
+					</div>
+				))}
+				<div className="mt-4 font-semibold">
+					<p>Subtotal: ₹{subtotal.toFixed(2)}</p>
+					<p>Tax (12%): ₹{tax.toFixed(2)}</p>
+					<p>Shipping: ₹{shipping.toFixed(2)}</p>
+					<hr className="my-2" />
+					<p className="text-blue-700">Total: ₹{grandTotal.toFixed(2)}</p>
 				</div>
-				<div>
-					<Billing />
-				</div>
+				<Billing />
 			</div>
 
-			{/* Payment Popup Modal */}
+			{/* Payment Modal */}
 			{isPaymentOpen && (
-				<div className="fixed inset-0 flex items-center justify-center bg-opacity-50">
-					<div className="bg-white p-6 rounded-lg shadow-lg w-96">
-						<h2 className="text-2xl font-semibold text-center mb-4">Payment</h2>
-						<p className="text-center mb-4">
-							Total Payable Amount: <strong>₹{grandTotal.toFixed(2)}</strong>
+				<div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+					<div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+						<h2 className="text-xl font-bold text-center mb-4">Select Payment Method</h2>
+
+						{/* Form Info */}
+						<p>
+							<strong>Name:</strong> {formData.firstName} {formData.lastName}
+						</p>
+						<p>
+							<strong>Email:</strong> {formData.email}
+						</p>
+						<p>
+							<strong>Total:</strong> ₹{grandTotal.toFixed(2)}
 						</p>
 
-						{/* Payment Methods */}
-						<div className="space-y-3">
-							<button className="w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600">
-								Pay with UPI
-							</button>
-							<button className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600">
-								Pay with Credit/Debit Card
-							</button>
-							<button className="w-full bg-gray-500 text-white py-2 rounded-lg hover:bg-gray-600">
-								Cash on Delivery
-							</button>
+						<div className="mt-4">
+							<label className="block font-semibold mb-2">Payment Options:</label>
+							<div>
+								<label className="block mb-2">
+									<input
+										type="radio"
+										value="online"
+										name="payment"
+										checked={selectedPayment === 'online'}
+										onChange={() => setSelectedPayment('online')}
+									/>{' '}
+									Online
+								</label>
+								<label className="block">
+									<input
+										type="radio"
+										value="cod"
+										name="payment"
+										checked={selectedPayment === 'cod'}
+										onChange={() => setSelectedPayment('cod')}
+									/>{' '}
+									Cash on Delivery
+								</label>
+							</div>
 						</div>
 
-						{/* Close Button */}
-						<button className="mt-4 w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600" onClick={() => setIsPaymentOpen(false)}>
-							Close
+						{selectedPayment === 'online' && (
+							<div className="mt-4 text-center">
+								<p className="text-green-700 mb-2">Scan QR to Pay</p>
+								<img src="/images/qr.jpeg" alt="QR Code" className="mx-auto h-[150px] w-auto" />
+							</div>
+						)}
+
+						{selectedPayment && (
+							<button
+								onClick={handleConfirmOrder}
+								className="mt-4 bg-blue-600 text-white w-full py-2 rounded"
+							>
+								Confirm Order
+							</button>
+						)}
+
+						<button
+							onClick={() => setIsPaymentOpen(false)}
+							className="mt-3 text-sm text-red-600 hover:underline w-full"
+						>
+							Cancel
 						</button>
 					</div>
 				</div>

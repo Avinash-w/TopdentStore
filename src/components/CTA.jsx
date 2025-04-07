@@ -1,5 +1,5 @@
 const CTA = (props) => {
-    const imageUrl = props.imageUrl || "https://cmsimgftp.blob.core.windows.net/container1/topdentstore/topdent-new.webp";
+    const imageUrl = props.imageUrl || "/images/slide1.jpeg";
   
     return (
       <div
@@ -14,7 +14,7 @@ const CTA = (props) => {
         }}
       >
         <div className="relative z-10 max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 ">
             Ready to Experience Excellence?
           </h2>
           <p className="text-lg md:text-xl mb-6">

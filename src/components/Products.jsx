@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import productsData from "../data/products.json"; // Import JSON file
 import ProductCard from "../components/ProductCard";
 
@@ -10,13 +10,18 @@ const Products = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 9; // Show 10 products per page
 
-  // Filter products based on name and price range
-  const filteredProducts = products.filter((product) => {
-    const matchesName = searchName ? product.name.toLowerCase().includes(searchName.toLowerCase()) : true;
-    const matchesMinPrice = minPrice ? product.price >= parseInt(minPrice) : true;
-    const matchesMaxPrice = maxPrice ? product.price <= parseInt(maxPrice) : true;
+   // Filter products based on name and price range
+   const filteredProducts = products.filter((product) => {
+    const matchesName = searchName.trim()
+      ? product.name?.toLowerCase().includes(searchName.trim().toLowerCase()) || false
+      : true;
+
+    const matchesMinPrice = minPrice !== "" ? product.price >= parseFloat(minPrice) : true;
+    const matchesMaxPrice = maxPrice !== "" ? product.price <= parseFloat(maxPrice) : true;
+
     return matchesName && matchesMinPrice && matchesMaxPrice;
   });
+   
 
   // Pagination Logic
   const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);

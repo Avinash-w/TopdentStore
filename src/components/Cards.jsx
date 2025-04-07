@@ -16,7 +16,7 @@ const Cards = () => {
   
     return (
       <div className="flex flex-col justify-center items-center py-10 px-4">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-blue-900 font-poppins text-center">
+        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#082a46] font-poppins text-center">
           Why TopDents
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -27,7 +27,7 @@ const Cards = () => {
             >
               
               <div className="z-10 flex flex-col justify-evenly w-full h-full">
-                <span className="text-xl md:text-2xl font-bold font-poppins mb-4 text-red-800">{card.title}</span>
+                <span className="text-xl md:text-2xl font-bold font-poppins mb-4 text-red-500">{card.title}</span>
                 <p className="font-roboto text-sm text-slate-900 md:text-base">{card.description}</p>
               </div>
             </div>

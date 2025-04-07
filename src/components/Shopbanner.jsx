@@ -5,7 +5,7 @@ const Shopbanner = () => {
     <div
         className="relative w-full h-[300px] flex items-center justify-center text-blue-950 bg-blue-100 text-center"
         style={{
-          // backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))`,
+          backgroundImage: 'url("/images/slide1.jpeg")',
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

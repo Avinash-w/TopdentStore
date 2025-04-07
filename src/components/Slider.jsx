@@ -7,12 +7,12 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 // Correctly resolve image paths in Vite
 
 const slides = [
-  { id: 1, img: "/images/slidernew.png" },
-  { id: 2, img: "/images/slidernew2.png" },
+  { id: 1, img: "/images/BANNER1.jpg" },
+  { id: 2, img: "/images/BANNER2.jpg" },
 ];
 export default function App() {
   return (
-    <div className="w-full  flex justify-center items-center bg-gray-100">
+    <div className="w-full  flex justify-center items-center  bg-gray-100">
       <div className="w-full ">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
