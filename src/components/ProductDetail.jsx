@@ -4,7 +4,7 @@ import productsData from '../data/products.json';
 import {  toast, ToastContainer } from 'react-toastify';
 import ProductCard from '../components/ProductCard';
 import SidebarProduc from './sidebarProduc';
-import Slider from '../components/Slider'
+
 import 'react-toastify/dist/ReactToastify.css';
 import FeaturesSection from "../components/FeaturesSection";
 import Productdetailbanner from "../components/Productdetailbanner"
@@ -70,7 +70,7 @@ const ProductDetail = () => {
 				</div>
 				<div className="w-full lg:w-4/12 mt-4 md:mt-0">
         <SidebarProduc />
-        <Slider/>
+        
       
         
         </div >
