@@ -20,7 +20,7 @@
 		"name": "Tweed Arch Tc",
 		"brand": "TOPDENT",
 		"image": "/Product/tweed arch.jpg",
-		"price": 799,
+		"price": 999,
 		"decreption": "Koden Tweed Arch Tc is a specialized dental instrument designed for precision and durability. Crafted from high-grade surgical stainless steel, it excels in making custom bends in square or rectangular archwires. Its specially designed joints ensure maximum precision and smooth handle rotation, providing consistent performance. With high corrosion resistance and the ability to withstand multiple autoclave cycles without degradation, this plier is heat sterilizable up to 180°C. Ideal for dental professionals, Koden Tweed Arch Forming Plier combines high-temperature resistance with exceptional durability, making it a reliable tool for orthodontic procedures."
 	},
 	{
@@ -43,7 +43,7 @@
 		"id": 6,
 		"name": "Hoe Plier",
 		"brand": "TOPDENT",
-		"image": "/Product/sleratingpiler.jpg",
+		"image": "/Product/HoePlier-new.avif",
 		"price": 1199,
 		"decreption": "The Topdent Hoe Plier is a specialized dental instrument designed for orthodontic procedures, specifically for shaping and bending orthodontic wires. Crafted with precision and durability in mind, this plier provides orthodontic practitioners with a reliable tool for intricate wire adjustments."
 	},
@@ -51,39 +51,25 @@
 		"id": 7,
 		"name": "Topdent Hard Wire Cutter",
 		"brand": "TOPDENT",
-		"image": "/Product/hardwirecottertc.jpg",
+		"image": "/Product/TopdentHardWireCutter.avif",
 		"price": 1599,
 		"decreption": "The Topdent Hard Wire Cutter is a specialized dental instrument designed for precision cutting of hard wires used in orthodontic procedures. Meticulously crafted for accuracy and durability, this cutter ensures orthodontic practitioners have a reliable tool for achieving clean and controlled cuts in a variety of hard wires."
 	},
-	{
-		"id": 8,
-		"name": "Distal Wire Cutter",
-		"brand": "TOPDENT",
-		"image": "/Product/distalendcutter.jpg",
-		"price": 1599,
-		"decreption": "The Topdent Distal Wire Cutter is a specialized dental instrument designed for precision cutting of distal ends of orthodontic wires. Meticulously crafted for accuracy and durability, this cutter ensures orthodontic practitioners have a reliable tool for achieving clean and controlled cuts in various wire types."
-	},
-	{
-		"id": 9,
-		"name": "Pin and Ligature Curved Tc",
-		"brand": "TOPDENT",
-		"image": "/Product/pintlgatuecurved.jpg",
-		"price": 1599,
-		"decreption": " The Topdent Pin and Ligature Wire Cutter is a specialized dental instrument designed for precision cutting of pins and ligature wires during orthodontic procedures. Meticulously crafted with fine blades and ergonomic features, this cutter provides orthodontic practitioners with a reliable tool for accurate and controlled wire management."
-	},
+	
+	
 	{
 		"id": 10,
 		"name": "Weingart (TC) ",
 		"brand": "TOPDENT",
-		"image": "/Product/pintlipaturetc.jpg",
-		"price": 1199,
+		"image": "/Product/johnson_band.jpg",
+		"price": 1299,
 		"decreption": " Weingart TC pliers come with matching serrated tips that provide maximum wire control at a convenient working angle and their inserted serrated tips prevent the wire from slipping while holding round, square and rectangular wire up to .030."
 	},
 	{
 		"id": 11,
 		"name": "Topdent Johnson Plier ",
 		"brand": "TOPDENT",
-		"image": "/Product/johnson_band.jpg",
+		"image": "/Product/pintlipaturetc.jpg ",
 		"price": 999,
 		"decreption": " Johnson Contouring Pliers 10/116 are meticulously crafted tools tailored for the precise contouring and adaptation of bands and crowns in orthodontic procedures. Featuring a unique design with one concave and one convex beak, these pliers offer unparalleled versatility in reshaping and refining bands to ensure optimal fit and comfort for patients. Orthodontists can effortlessly re-contour band edges that may become misshapen during replacement procedures, ensuring a seamless and snug fit against the tooth surface. Crafted from high-quality stainless steel, these pliers maintain their shape over time, providing reliable performance with each use. Additionally, their corrosion-resistant properties and autoclavable nature ensure hassle-free maintenance and sterilization, meeting stringent hygiene standards in dental practices. With their ergonomic design and precision engineering, the Waldent Orthodontic Johnson Contouring Pliers 10/116 exemplify excellence in orthodontic instrumentation, enhancing efficiency and accuracy in clinical settings."
 	},
@@ -91,7 +77,7 @@
 		"id": 12,
 		"name": " Delarosa Plier ",
 		"brand": "TOPDENT",
-		"image": "/Product/Decarosa.jpg",
+		"image": "/Product/DelarosaPliernew.avif",
 		"price": 799,
 		"decreption": "Topdent Delarosa Plier is a specialized dental instrument designed for precise orthodontic wire bending and adjustments. Meticulously crafted for accuracy and ease of use, this plier ensures orthodontic practitioners have a reliable tool for achieving intricate wire configurations and maintaining optimal patient treatment. "
 	},
@@ -113,18 +99,18 @@
 	},
 	{
 		"id": 15,
-		"name": "  Plastic Filling Instrument + Ball Burnisher",
+		"name": "Silicone  Plastic Filling Instrument + Ball Burnisher",
 		"brand": "TOPDENT",
 		"image": "/Product/Ball-Burnisher.avif",
-		"price": 199,
+		"price": 499,
 		"decreption": "The Topdent Plastic Ball Burnisher is a specialized dental instrument crafted for precise contouring and smoothing of dental materials. Designed with dual functionality, this burnisher features a plastic ball-shaped tip, ensuring versatility in various dental applications. "
 	},
 	{
 		"id": 16,
 		"name": "  Artery Forceps - Straight",
 		"brand": "TOPDENT",
-		"image": "/Product/ArteryForceps -Straight.avif",
-		"price": 299,
+		"image": "/Product/ArteryForcepsStraight.avif",
+		"price": 349,
 		"decreption": "Topdent Artery Forceps are precision-crafted dental instruments designed for delicate and controlled handling during oral and dental surgical procedures. These forceps are an essential tool for dental professionals performing various tasks, including tooth extractions and other surgical interventions requiring a secure grip on tissues. "
 	},
 	{
@@ -148,7 +134,7 @@
 		"name": " Surgical Scissors - Straight",
 		"brand": "TOPDENT",
 		"image": "/Product/Surgical-Scissors.avif",
-		"price": 299,
+		"price": 349,
 		"decreption": "Elevate your surgical precision with Topdent Surgical Scissors, meticulously crafted for optimal performance in a variety of dental procedures. These scissors exemplify precision engineering, providing practitioners with a reliable tool for controlled and efficient tissue manipulation during surgeries. "
 	},
 	{
@@ -156,7 +142,7 @@
 		"name": "GP Cutter General Accessory - Curved ",
 		"brand": "TOPDENT",
 		"image": "/Product/GPCutter.avif",
-		"price": 400,
+		"price": 449,
 		"decreption": "Topdent GP Cutter is a specialized dental instrument designed for precision and efficiency in cutting gutta-percha points during endodontic procedures. Crafted with attention to detail and functionality, this cutter provides dental professionals with a reliable tool for shaping and adjusting gutta-percha materials with ease. "
 	},
 	{
@@ -196,7 +182,7 @@
 		"name": "Periodontal Tweezer ",
 		"brand": "TOPDENT",
 		"image": "/Product/PeriodontalTweezer.avif",
-		"price": 1100,
+		"price": 499,
 		"decreption": "The Topdent Periodontal Tweezer is a precision-crafted dental instrument designed for delicate handling and placement of periodontal dressings, cotton pellets, or other small objects during periodontal procedures. Meticulously engineered with fine tips and ergonomic features, this tweezer provides dental practitioners with a reliable tool for accurate and controlled manipulation. "
 	},
 	{
@@ -252,7 +238,7 @@
 		"name": "Orthodontic Bands - Pusher",
 		"brand":  "TOPDENT",
 		"image": "/Product/OrthodonticBands-Pusher.avif",
-		"price": 350,
+		"price": 450,
 		"decreption": " The Topdent Orthodontic Bands Pusher is a specialized instrument designed for the efficient and controlled placement of orthodontic bands during dental procedures. Meticulously crafted with precision and functionality in mind, this pusher provides orthodontic practitioners with a reliable tool for accurate band placement. "
 	},
 	{
@@ -260,7 +246,7 @@
 		"name": " MosquitoForceps-Straight",
 		"brand":  "TOPDENT",
 		"image": "/Product/MosquitoForceps-Straight.avif",
-		"price": 300,
+		"price": 350,
 		"decreption": " Topdent Mosquito Forceps are precision-crafted dental instruments designed for delicate and controlled tissue handling during various dental procedures. Meticulously engineered with fine tips and ergonomic features, these forceps provide practitioners with a reliable tool for meticulous tissue manipulation. "
 	},
 	{
@@ -273,10 +259,10 @@
 	},	
 	{
 		"id": 35,
-		"name": "2 x Topdent Spoon Excavator - B 90",
+		"name": " Spoon Excavator small",
 		"brand":  "TOPDENT",
 		"image": "/Product/SpoonB90.avif",
-		"price": 400,
+		"price": 200,
 		"decreption": " The Topdent Spoon Excavator is a specialized dental instrument designed for precise and efficient caries removal and cavity preparation during dental procedures. Crafted with a focus on functionality, durability, and optimal performance, this excavator provides dental practitioners with a reliable tool for various restorative applications. "
 	},	
 	{
@@ -284,15 +270,15 @@
 		"name": "Wax Carver",
 		"brand":  "TOPDENT",
 		"image": "/Product/WaxCarver.avif",
-		"price": 350,
+		"price": 1050,
 		"decreption": " The Topdent Wax Carver is a precision-crafted dental instrument designed for shaping, carving, and manipulating dental waxes with accuracy and control. Tailored for use in prosthodontics, restorative dentistry, and dental laboratories, this wax carver provides dental professionals with a versatile tool for creating detailed and precise wax patterns. "
 	},
 	{
 		"id": 37,
-		"name": "BallBurnisher",
+		"name": " Silicone handel BallBurnisher",
 		"brand":  "TOPDENT",
 		"image": "/Product/Ball-Burnisher.avif",
-		"price": 200,
+		"price": 499,
 		"decreption": " The Topdent Ball Burnisher is a precision dental instrument designed for contouring, shaping, and smoothing dental restorative materials. Meticulously crafted, this ball burnisher provides dental practitioners with a versatile tool for achieving seamless and polished finishes in various dental procedures. "
 	},
 	{
@@ -308,7 +294,7 @@
 		"name": "Tissue Holding Tweezer - Plain",
 		"brand":  "TOPDENT",
 		"image": "/Product/Tissue-Holding-Tweezer.avif",
-		"price": 1200,
+		"price": 499,
 		"decreption": " The Topdent Tissue Holding Tweezer is a precision-crafted dental instrument designed for secure and controlled manipulation of delicate tissues during various dental procedures. With fine tips and a sturdy build, this tweezer provides dental practitioners with a reliable tool for precise tissue handling. "
 	},
 	{
@@ -329,10 +315,10 @@
 	},
 	{
 		"id": 42,
-		"name": "Periosteal Surgical Elevators - Small",
+		"name": "Periosteal Surgical Elevators - big",
 		"brand":  "TOPDENT",
-		"image": "/Product/PeriostealSurgicalEle.avif",
-		"price": 250,
+		"image": "/Product/WaxDentalSpatula.avif",
+		"price": 399,
 		"decreption": " Topdent Periosteal Surgical Elevators in the Small size variant are meticulously crafted dental instruments designed to facilitate atraumatic and precise elevation of the periosteum during oral surgical procedures. These elevators are engineered with precision to provide dental professionals with the control and maneuverability needed for delicate tissue management."
 	},
 	{
@@ -340,7 +326,7 @@
 		"name": "Bracket Holding Tweezer",
 		"brand":  "TOPDENT",
 		"image": "/Product/BracketHolding.avif",
-		"price": 300,
+		"price": 350,
 		"decreption": "The Topdent Bracket Holding Tweezer is a specialized orthodontic instrument designed to facilitate the precise handling and placement of orthodontic brackets during dental procedures. Meticulously crafted, this tweezer provides orthodontic practitioners with a reliable and ergonomic tool for efficient bracket manipulation. "
 	},
 	{
@@ -348,15 +334,15 @@
 		"name": "Bone File",
 		"brand":  "TOPDENT",
 		"image": "/Product/BoneFile.avif",
-		"price": 1200,
+		"price": 400,
 		"decreption": "The Topdent Bone File is an essential instrument designed for meticulous bone shaping and contouring in oral and maxillofacial procedures. Crafted with precision, this bone file provides dental practitioners with a reliable tool to achieve accurate and controlled bone modifications. "
 	},
 	{
 		"id": 45,
-		"name": "Wax Dental Spatula",
+		"name": "Periosteal Surgical Elevators - Small",
 		"brand":  "TOPDENT",
 		"image": "/Product/WaxDentalSpatula.avif",
-		"price": 200,
+		"price": 250,
 		"decreption": " The Topdent Wax Dental Spatula is a specialized instrument crafted for precision and versatility in various dental applications, particularly in the manipulation and shaping of dental waxes. Designed with attention to detail, this spatula is an essential tool for dental professionals involved in prosthodontics, restorative dentistry, and laboratory procedures. "
 	},
 	{
@@ -409,10 +395,10 @@
 	},
 	{
 		"id": 52,
-		"name": "Hollow Handle Spoon Excavator - B90",
+		"name": "  Spoon Excavator - B110 medium",
 		"brand":  "TOPDENT",
 		"image": "/Product/Hollow-HandleB90.avif",
-		"price": 350,
+		"price": 199,
 		"decreption": "The Topdent Hollow Handle Spoon Excavator is a specialized dental instrument designed for efficient and precise caries removal during dental procedures. With a focus on ergonomics, durability, and optimal excavation capabilities, this excavator ensures effective cavity preparation while prioritizing practitioner comfort. "
 	},
 	{
@@ -428,7 +414,7 @@
 		"name": "Hard Wire Cutter",
 		"brand":  "TOPDENT",
 		"image": "/Product/HardWire-Cutter.avif",
-		"price": 500,
+		"price": 1599,
 		"decreption": "The Topdent Hard Wire Cutter is a specialized dental instrument designed for precision cutting of hard wires used in orthodontic procedures. Meticulously crafted for accuracy and durability, this cutter ensures orthodontic practitioners have a reliable tool for achieving clean and controlled cuts in a variety of hard wires. "
 	},
 	{
@@ -439,20 +425,13 @@
 		"price": 200,
 		"decreption": " The Topdent Cement Material Carrier is a specialized dental instrument designed to streamline the handling and application of dental cements during various restorative and prosthetic procedures. Meticulously crafted, this carrier provides dental practitioners with a reliable tool for efficient and precise delivery of cement materials."
 	},
-	{
-		"id": 56 ,
-		"name": "Mouth Mirror LED",
-		"brand":  "TOPDENT",
-		"image": "/Product/Mouth-Mirror.avif",
-		"price": 800,
-		"decreption": "Introducing the Topdent Mouth Mirror LED, a cutting-edge tool meticulously designed to elevate dental diagnostics and examinations. This innovative dental mirror integrates advanced LED technology with precision craftsmanship, offering dental professionals unparalleled visibility for enhanced patient care. "
-	},
+	
 	{
 		"id": 57,
-		"name": " Rodium Mouth Mirror",
+		"name": " Rodium Mouth Mirror box of 12 pic",
 		"brand":  "TOPDENT",
 		"image": "/Product/RodiumMouth-Mirror.avif",
-		"price": 500,
+		"price": 1199,
 		"decreption": "The Topdent Rhodium Mouth Mirror is an advanced dental diagnostic instrument, meticulously designed for superior clarity and durability in intraoral examinations. Featuring a reflective surface coated with rhodium, this mirror ensures optimal visibility, making it an essential tool for precise diagnostics. "
 	},
 	{
@@ -465,18 +444,18 @@
 	},
 	{
 		"id": 59,
-		"name": "Hollow Handle Finger Pluggers - 1",
+		"name": " Hand Pluggers - 1",
 		"brand":  "TOPDENT",
-		"image": "/Product/FingerPluggers-1.avif",
-		"price": 500,
+		"image": "/Product/HandPluggers.avif",
+		"price": 200,
 		"decreption": " Topdent Hollow Handle Finger Pluggers are specialized dental instruments designed for precise and controlled condensation of gutta-percha within the root canal during endodontic procedures. Crafted with precision and attention to detail, these pluggers offer dental professionals a reliable tool for achieving optimal obturation results."
 	},
 	{
 		"id": 60,
-		"name": " MTA Material Carrier - Straight 1.2 X 13Cm",
+		"name": " MTA Material Carrier - Straight & curved 1.2 X 13Cm",
 		"brand":  "TOPDENT",
 		"image": "/Product/Carrier-Straight13Cm.avif",
-		"price": 600,
+		"price": 700,
 		"decreption": "Topdent MTA Material Carrier is a specialized dental instrument designed for the precise placement and delivery of Mineral Trioxide Aggregate (MTA) during endodontic procedures. Crafted with precision and attention to detail, this material carrier offers dental professionals a reliable tool for achieving accurate MTA placement, contributing to successful root canal treatments. "
 	},
 	{
@@ -484,7 +463,7 @@
 		"name": " Boley Guage Calibrated Ruler ",
 		"brand":  "TOPDENT",
 		"image": "/Product/CalibratedRuler.avif",
-		"price": 500,
+		"price": 700,
 		"decreption": "The Topdent Boley Gauge Calibrated Ruler is a precision instrument designed for accurate measurements in various dental and orthodontic procedures. Meticulously crafted, this calibrated ruler provides practitioners with a reliable tool for assessing dental dimensions and ensuring precise clinical evaluations. "
 	},
 	{
@@ -500,7 +479,7 @@
 		"name": " Root Periodontal Elevator - Set of 11Pcs",
 		"brand":  "TOPDENT",
 		"image": "/Product/RootElevatorof11Pcs.avif",
-		"price": 5000,
+		"price": 3999,
 		"decreption": "The Topdent Root Periodontal Elevator is a specialized dental instrument designed for precise and controlled tooth elevation during periodontal and oral surgery procedures. Meticulously crafted with a sharp, tapered blade, this elevator facilitates gentle and effective elevation, making it an essential tool for dental practitioners. "
 	},
 	{
@@ -508,7 +487,7 @@
 		"name": "Plastic Band Seater",
 		"brand":  "TOPDENT",
 		"image": "/Product/PlasticBandSeater.avif",
-		"price": 450,
+		"price": 250,
 		"decreption": " The Topdent Plastic Band Seater is a specialized dental instrument designed for the efficient and precise seating of bands during orthodontic procedures. Meticulously crafted with a plastic tip, this band seater offers dental practitioners a reliable tool for accurate and gentle placement of orthodontic bands. "
 	},
 	{
@@ -516,7 +495,7 @@
 		"name": "Retraction Cord Packer",
 		"brand":  "TOPDENT",
 		"image": "/Product/RetractionCordPacker.avif",
-		"price": 450,
+		"price": 250,
 		"decreption": " The Topdent Retraction Cord Packer is a specialized dental instrument meticulously designed to facilitate the efficient placement of retraction cord during dental procedures. Crafted with precision and expertise, this instrument offers dental professionals a reliable tool for achieving optimal gingival retraction and creating an ideal working environment for various dental treatments. "
 	},
 	{
@@ -524,7 +503,7 @@
 		"name": " Steel Band Seater",
 		"brand":  "TOPDENT",
 		"image": "/Product/SteelBandSeater.avif",
-		"price": 800,
+		"price": 450,
 		"decreption": "The Topdent Steel Band Seater is a precision-engineered dental instrument designed for the accurate placement of orthodontic bands during dental procedures. Crafted from high-quality steel, this band seater offers durability and reliability, ensuring controlled and efficient band placement. "
 	},
 	{
@@ -532,7 +511,7 @@
 		"name": "Pichard Hallow Periodontal Elevator",
 		"brand":  "TOPDENT",
 		"image": "/Product/Pichard-Elevator.avif",
-		"price": 500,
+		"price": 600,
 		"decreption": "The Topdent Pichard Hollow Periodontal Elevator is a specialized dental instrument designed for precision in periodontal and oral surgery procedures. Meticulously crafted with a hollow design, this elevator facilitates controlled tooth elevation and extraction, making it an essential tool for dental practitioners performing periodontal interventions. "
 	},
 	{
@@ -548,7 +527,7 @@
 		"name": "Omega Loop Forming Plier",
 		"brand":  "TOPDENT",
 		"image": "/Product/OmegaLoopForming.avif",
-		"price": 500,
+		"price": 999,
 		"decreption": " The Topdent Omega Loop Forming Plier is a precision-crafted orthodontic instrument designed for the accurate and controlled bending of omega loops in orthodontic wires. Meticulously engineered with advanced features, this plier provides orthodontic practitioners with a reliable tool for customized wire adjustments. "
 	},
 	{
@@ -564,7 +543,7 @@
 		"name": " Silicone Hand Scaler - Set of 8",
 		"brand":  "TOPDENT",
 		"image": "/Product/SiliconeHandSet-8.avif",
-		"price": 4000,
+		"price": 3500,
 		"decreption": " The Topdent Silicone Hand Scaler is an innovative dental instrument designed for effective and gentle scaling procedures. Crafted with a silicone tip, this scaler provides a unique and non-abrasive approach to plaque and calculus removal, prioritizing patient comfort while ensuring optimal dental hygiene."
 	},
 	{
@@ -572,15 +551,15 @@
 		"name": "Handle With Mouth Mirror",
 		"brand":  "TOPDENT",
 		"image": "/Product/HandleMouthMirror.avif",
-		"price": 400,
+		"price": 250,
 		"decreption": "It is made up of high-quality stainless steel. It has a slim design for high comfort with low reflection surfaces. It exhibits high contrast with sharp images. It is used to hold the mouth mirror to reflect light and provide an indirect vision for easy viewing of a patient`s teeth and retraction and protection of oral tissues "
 	},
 	{
 		"id": 73 ,
-		"name": "Suture Holding Surgical Scissors",
+		"name": "Suture Holding Surgical Scissors Angled",
 		"brand":  "TOPDENT",
 		"image": "/Product/SutureHolding-SurgicalScissors.avif",
-		"price": 300,
+		"price": 350,
 		"decreption": "The Topdent Suture Holding Surgical Scissors are specialized instruments designed for precise and efficient suture cutting during surgical procedures. Crafted with precision and durability in mind, these scissors provide dental practitioners with a reliable tool for controlled and clean suturing. "
 	},
 	{
@@ -588,12 +567,12 @@
 		"name": "Hollow Handle Mouth Mirror",
 		"brand":  "TOPDENT",
 		"image": "/Product/HollowHandleMouthMirror.avif",
-		"price": 300,
+		"price": 499,
 		"decreption": "The Topdent Hollow Handle Mouth Mirror is a specialized dental instrument designed for clear intraoral visualization during dental examinations. Crafted with precision and functionality in mind, this mirror provides practitioners with a reliable tool for thorough oral assessments. "
 	},
 	{
 		"id": 75,
-		"name": "Warvik James Surgical Elevators",
+		"name": "Warvik James Surgical Elevators set of 3",
 		"brand":  "TOPDENT",
 		"image": "/Product/WarvikJamesSurgicalElevators.avif",
 		"price": 1000,
@@ -601,26 +580,19 @@
 	},
 	{
 		"id": 76 ,
-		"name": "Hollow Handle Ball Burnisher",
+		"name": " Ball Burnisher",
 		"brand":  "TOPDENT",
 		"image": "/Product/HollowHandleBall.avif",
-		"price": 400,
+		"price": 200,
 		"decreption": " The Topdent Hollow Handle Ball Burnisher is a specialized dental instrument designed for the finishing and polishing of dental restorations, especially in areas that require precision and smooth contouring. Meticulously crafted with a focus on versatility, this burnisher provides practitioners with a reliable tool for achieving optimal esthetic results. "
 	},
-	{
-		"id": 77 ,
-		"name": "Autoclavable Plastic Mixing Spatula",
-		"brand":  "TOPDENT",
-		"image": "/Product/AutoclavablePlasticSpatula.avif",
-		"price": 250,
-		"decreption": " The Topdent Autoclavable Plastic Mixing Spatula is a specialized dental instrument crafted for precise and hygienic mixing of dental materials. This spatula is designed to provide dental practitioners with a reliable tool for achieving uniform and bubble-free consistency in various dental procedures. "
-	},
+	
 	{
 		"id": 78 ,
-		"name": " Plastic Composite Filling Instrument",
+		"name": " Silicone Plastic Composite Filling Instrument",
 		"brand":  "TOPDENT",
 		"image": "/Product/PlasticCompositeFilling.avif",
-		"price": 200,
+		"price": 499,
 		"decreption": " The Topdent Plastic Composite Filling Instrument is a specialized dental tool designed for the precise placement and shaping of composite filling materials during restorative procedures. Crafted with a plastic tip, this instrument offers dental practitioners a reliable and gentle tool for accurate contouring and sculpting of dental restorations. "
 	},
 	{
@@ -641,10 +613,10 @@
 	},
 	{
 		"id": 81,
-		"name": "Hollow Handle Single-Ended Probes",
+		"name": " Single-Ended Probes",
 		"brand":  "TOPDENT",
 		"image": "/Product/HollowHandleSingle-EndedProbes.avif",
-		"price": 300,
+		"price": 200,
 		"decreption": "Topdent Hollow Handle Single-Ended Probes are precision-crafted dental instruments designed for accurate periodontal assessments. These probes feature a single-ended design with a specialized tip, allowing practitioners to measure pocket depths and assess periodontal health with precision and ease. "
 	},
 	{
@@ -665,10 +637,10 @@
 	},
 	{
 		"id": 84 ,
-		"name": "Pin and Ligature Wire Cutter",
+		"name": "Pin and Ligature Wire Cutter TC",
 		"brand":  "TOPDENT",
 		"image": "/Product/Pin&LigatureWireCutter.avif",
-		"price": 1500,
+		"price": 1599,
 		"decreption": "The Topdent Pin and Ligature Wire Cutter is a specialized dental instrument designed for precision cutting of pins and ligature wires during orthodontic procedures. Meticulously crafted with fine blades and ergonomic features, this cutter provides orthodontic practitioners with a reliable tool for accurate and controlled wire management. "
 	},
 	{
@@ -676,7 +648,7 @@
 		"name": "Double Ended Explorer Diagnostic Instrument",
 		"brand":  "TOPDENT",
 		"image": "/Product/DoubleEndedExplorer.avif",
-		"price": 400,
+		"price": 200,
 		"decreption": " The Topdent Double-Ended Explorer Diagnostic Instrument is an essential tool for comprehensive dental examinations. Meticulously crafted with precision, this instrument is designed to assist practitioners in identifying dental caries, calculus, and other dental irregularities with accuracy. "
 	},
 	{
@@ -684,7 +656,7 @@
 		"name": "Rodium Mouth Mirror",
 		"brand":  "TOPDENT",
 		"image": "/Product/PlainMouth-Mirror.avif",
-		"price": 1100,
+		"price": 1199,
 		"decreption": "The Topdent Rhodium Mouth Mirror is an advanced dental diagnostic instrument, meticulously designed for superior clarity and durability in intraoral examinations. Featuring a reflective surface coated with rhodium, this mirror ensures optimal visibility, making it an essential tool for precise diagnostics. "
 	},
 	{
@@ -695,14 +667,7 @@
 		"price": 500,
 		"decreption": "The Topdent Stainless Steel Rubber Dam Frame is a precision-crafted dental tool designed for the secure and stable placement of rubber dams during dental procedures. Constructed from high-quality stainless steel, this frame provides durability and reliability for optimal isolation of the treatment area. "
 	},
-	{
-		"id": 88 ,
-		"name": "Stainless Steel Autoclavable Instrument Tray - With 4-Slot",
-		"brand":  "TOPDENT",
-		"image": "/Product/StainlessSteelAutoclavable4-Slot.avif",
-		"price": 900,
-		"decreption": "The Topdent Stainless Steel Autoclavable Instrument Tray is a versatile and durable solution for organizing and sterilizing dental instruments. Crafted from high-quality stainless steel, this tray ensures the safe and efficient handling of instruments throughout various dental procedures. "
-	},
+	
 	{
 		"id": 89 ,
 		"name": "Kayagaki Composite Finishing & Polishing Instruments - Box of 100",
@@ -716,7 +681,7 @@
 		"name": " Kayagaki Cup Rotary Polishing Instruments - Set of 9",
 		"brand":  "TOPDENT",
 		"image": "/Product/KayagakiCupRotarySetof9.avif",
-		"price": 1000,
+		"price": 599,
 		"decreption": "Topdent Kayagaki Cup Rotary Polishing Instruments are advanced dental tools designed for efficient and precise rotary polishing of various dental restorations. Meticulously crafted with cutting-edge features, these instruments provide practitioners with a comprehensive solution for achieving optimal esthetic results in dental polishing procedures. "
 	},
 	{
@@ -732,7 +697,7 @@
 		"name": "Twirl on Instrument for Orthodontic Accessory",
 		"brand":  "TOPDENT",
 		"image": "/Product/Instrument-Orthodontic-Accessory.avif",
-		"price": 500,
+		"price": 300,
 		"decreption": "Introducing the Topdent Twirl, a groundbreaking instrument designed specifically for orthodontic accessory manipulation. Meticulously crafted with the fusion of advanced materials and innovative design, this tool redefines precision and efficiency in orthodontic procedures. "
 	},
 	{
@@ -740,7 +705,7 @@
 		"name": "Hallow Gold Composite Filling Instrument - Set of 6 Pcs",
 		"brand":  "TOPDENT",
 		"image": "/Product/HallowGold-Filling-6pcs.avif",
-		"price": 2500,
+		"price": 2200,
 		"decreption": "The Topdent Hallow Gold Composite Filling Instrument is a precision-crafted dental tool designed to assist practitioners in the precise placement and contouring of composite dental fillings. With a focus on quality and functionality, this instrument enhances the efficiency and accuracy of restorative procedures. "
 	},
 	{
@@ -748,229 +713,8 @@
 		"name": "Hallow Blue Composite Filling Instrument - Set of 6 Pcs",
 		"brand":  "TOPDENT",
 		"image": "/Product/Hallowblue-Filling-6pcs.avif",
-		"price": 3500,
+		"price": 2500,
 		"decreption": "The Topdent Hallow Blue Composite Filling Instrument is a specialized dental tool meticulously crafted to aid in the precise placement and contouring of composite dental fillings. This instrument is designed with precision and versatility to assist practitioners in achieving optimal results in restorative procedures. "
-	},
-	{
-		"id": 95 ,
-		"name": "DragonPipettor1 Unit",
-		"brand":  "TOPDENT",
-		"image": "/Product/DragonPipettor1Unit.avif",
-		"price": 1300,
-		"decreption": " The TopPette Single Channel Pipettor provides a versatile volume range of 5-50ul, allowing for precise dispensing of small liquid volumes. This adjustable feature enables flexibility in various laboratory applications, from molecular biology to clinical diagnostics. "
-	},
-	{
-		"id": 96 ,
-		"name": "Bondent 6% Paper Points - 15",
-		"brand":  "TOPDENT",
-		"image": "/Product/Bondent6-Paper15.avif",
-		"price": 250,
-		"decreption": "Bondent 6% Paper Points are essential components in endodontic procedures, meticulously designed to ensure precise and efficient drying of root canals. Developed by Bondent, a reputable name in dental supplies, these paper points offer clinicians a reliable tool for achieving optimal moisture control. "
-	},
-	{
-		"id": 97,
-		"name": "Bondent 2% Paper Points - 25",
-		"brand":  "TOPDENT",
-		"image": "/Product/Bondent2-Paper-25.avif",
-		"price": 200,
-		"decreption": "Bondent 2% Paper Points are essential endodontic accessories designed to facilitate efficient and precise drying of root canals during endodontic procedures. Developed by Bondent, a trusted name in dental supplies, these paper points offer clinicians a reliable tool for achieving optimal canal dryness. "
-	},
-	{
-		"id": 98,
-		"name": "Bondent Stainless Steel K Files - 21mm 25",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentStainlessSteelKFiles.avif",
-		"price": 134,
-		"decreption": "Introducing Bondent Stainless Steel K Files: The Epitome of Precision in Endodontic Instrumentation In the realm of endodontics, precision and quality are the cornerstones of successful clinical procedures. Bondent, a respected name in the dental industry, is proud to present Bondent Stainless Steel K Files, an innovative endodontic instrument meticulously designed to meet the exacting demands of modern dental practices. These K Files represent a harmonious blend of precision engineering, durable materials, and meticulous craftsmanship, substantiated by clinical research and technical documentation. "
-	},
-	{
-		"id": 99,
-		"name": "Bondent Gutta Percha Points - F2",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentGuttaPerchaPoints.avif",
-		"price": 400,
-		"decreption": "Bondent Gutta Percha Points stand as a cornerstone in endodontic obturation, offering a reliable and versatile solution for the precise sealing of root canals. Meticulously crafted from high-quality materials, these gutta percha points are designed to facilitate effective three-dimensional obturation and ensure long-term success in endodontic treatments. "
-	},
-	{
-		"id":100 ,
-		"name": "Bondent M3 Glidepath Files - 2% 25mm 13",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentM3.avif",
-		"price": 1000,
-		"decreption": "Bondent M3 Glidepath Files represent an advanced solution in endodontic instrumentation, meticulously crafted to establish a smooth and predictable glide path during root canal preparation. Developed by Bondent, a trusted name in dental supplies, these files offer clinicians a reliable tool for achieving optimal canal navigation. "
-	},
-	{
-		"id":101 ,
-		"name": "Bondent Endo Irrigation Needles - 22mm Posterior Teeth",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentEndoIrrigationNeedles.avif",
-		"price": 800,
-		"decreption": "Bondent Endo Irrigation Needles are specialized instruments designed to enhance the effectiveness of root canal irrigation, ensuring thorough cleansing and disinfection during endodontic procedures. Meticulously crafted, these needles play a crucial role in maintaining a sterile and optimally prepared root canal system. "
-	},
-	{
-		"id":102 ,
-		"name": " Bondent Endo Wise Endomotor",
-		"brand":  "TOPDENT",
-		"image": "/Product/Endomotor.avif",
-		"price": 35000,
-		"decreption": "The Bondent Endo Wise Endomotor is a sophisticated and versatile endodontic motor system designed to optimize efficiency and precision in root canal procedures. Crafted by Bondent, a reputable name in dental technology, the Endo Wise Endomotor integrates advanced features to facilitate seamless rotary and reciprocating movements, enhancing the overall experience for dental practitioners. "
-	},
-	{
-		"id":103 ,
-		"name": "Bondent Standard 6% Gutta Percha Points - 20",
-		"brand":  "TOPDENT",
-		"image": "/Product/Bondent-Standard6per.avif",
-		"price": 200,
-		"decreption": "Bondent Standard 6% Gutta Percha Points are a fundamental and essential component in the field of endodontics, serving a critical role in root canal obturation. Manufactured by Bondent, a reputable name in dental supplies, these gutta percha points are meticulously designed and engineered to meet the demanding requirements of modern endodontic procedures. They play a vital role in achieving successful root canal treatments by providing a reliable and effective means of sealing the root canal system. "
-	},
-
-	{
-		"id":104 ,
-		"name": "Bondent Standard 4% Gutta Percha Points - 25",
-		"brand":  "TOPDENT",
-		"image": "/Product/Bondent-Standard4per.avif",
-		"price": 200,
-		"decreption": "Bondent Standard 4% Gutta Percha Points represent an advanced solution in endodontic obturation, meticulously designed to meet the highest standards of precision and sealing efficacy. Crafted by Bondent, these gutta-percha points offer dental practitioners a reliable and standardized tool for achieving optimal root canal obturation. "
-	},
-
-	{
-		"id":105 ,
-		"name": "Bondent Standard 2% Gutta Percha Points - 25",
-		"brand":  "TOPDENT",
-		"image": "/Product/Bondent-Standard2per.avif",
-		"price": 200,
-		"decreption": "Bondent Standard 2% Gutta Percha Points are an essential and reliable component in the field of endodontics, playing a crucial role in the obturation of root canals. Manufactured by Bondent, a reputable name in dental supplies, these gutta percha points are meticulously designed and engineered to meet the demanding requirements of modern endodontic procedures. They are instrumental in achieving successful root canal treatments by providing a dependable and efficient means of sealing the root canal system. "
-	},
-
-	{
-		"id":106 ,
-		"name": "Bondent 4% Paper Points - 15",
-		"brand":  "TOPDENT",
-		"image": "/Product/Bondent4per.avif",
-		"price": 200,
-		"decreption": "Bondent 4% Paper Points are indispensable tools in endodontic procedures, meticulously designed to facilitate effective drying of root canals. Crafted by Bondent, a trusted name in dental supplies, these paper points offer clinicians a reliable solution for achieving precise and efficient moisture control. "
-	},
-
-	{
-		"id":107 ,
-		"name": "Bondent M3 Large Taper Gold NiTi Rotary Files - 19mm SX",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentM3LargeTaper.avif",
-		"price": 800,
-		"decreption": " Bondent M3 Large Taper Gold NiTi Rotary Files are advanced endodontic instruments designed for efficient and precise root canal preparation. Crafted by Bondent, a trusted name in dental technology, these rotary files feature a large taper design with a gold coating, combining durability and cutting efficiency for optimal performance during endodontic procedures."
-	},
-
-	{
-		"id":108 ,
-		"name": "Bondent M3 Large Taper Endo Hand File - 19mm SX",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentM3LargeTaperEndoHand.avif",
-		"price": 900,
-		"decreption": "Bondent M3 Large Taper Endo Hand Files are precision-crafted endodontic instruments designed for meticulous shaping and preparation of root canals. Created by Bondent, a trusted name in dental technology, these hand files feature a large taper design, providing practitioners with the tools necessary for effective and controlled root canal procedures. "
-	},
-
-	{
-		"id":109 ,
-		"name": "Bondent M3-C Plus Endo Hand File - 25mm 10",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentM3-CPlus.avif",
-		"price": 200,
-		"decreption": "The Bondent M3-C Plus Endo Hand File is an advanced endodontic instrument meticulously designed to cater to the intricate demands of root canal procedures. Crafted with precision and featuring cutting-edge technology, this hand file embodies the essence of efficiency and precision in endodontics. "
-	},
-
-	{
-		"id":110 ,
-		"name": "Bondent CC Premium V.EU NiTi Rotary Files - 4% 21mm 15",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentCCPremium.avif",
-		"price": 1400,
-		"decreption": "Bondent CC Premium V.EU NiTi Rotary Files represent a cutting-edge advancement in endodontic instrumentation, providing dental practitioners with a highly efficient tool for root canal preparation. Developed by Bondent, a trusted name in dental supplies, these rotary files are designed with precision to enhance procedural ease and optimize treatment outcomes. "
-	},
-
-	{
-		"id":111 ,
-		"name": "Bondent SST/NITI Hand Plugger - 50/03(NiTi)-100/02(SST)",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentSST-NITI.avif",
-		"price": 1000,
-		"decreption": "The Bondent SST/NITI Hand Plugger represents a cutting-edge solution in endodontic instrumentation, designed to provide dental practitioners with precise and reliable hand pluggers for various procedures. Crafted by Bondent, this instrument combines the strength of stainless steel (SST) and the flexibility of Nickel-Titanium (NiTi) to offer optimal performance in root canal treatments. "
-	},
-
-	{
-		"id":112 ,
-		"name": "Bondent M3 Large Taper Gold NiTi Rotary Files - 19mm SX",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentM3LargeTaperGold.avif",
-		"price": 800,
-		"decreption": "Bondent M3 Large Taper Gold NiTi Rotary Files are advanced endodontic instruments designed for efficient and precise root canal preparation. Crafted by Bondent, a trusted name in dental technology, these rotary files feature a large taper design with a gold coating, combining durability and cutting efficiency for optimal performance during endodontic procedures. "
-	},
-
-	{
-		"id":113 ,
-		"name": "Bondent I Root Apex Apex Locator",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentIRootApex.avif",
-		"price": 16000,
-		"decreption": "The Bondent I Root Apex Apex Locator is an advanced electronic device designed to enhance precision in root canal procedures. Crafted by Bondent, a reputable name in dental technology, this apex locator utilizes cutting-edge technology to provide accurate and real-time measurements of the root canal length, contributing to optimal outcomes in endodontic treatments."
-	},
-
-	{
-		"id":114 ,
-		"name": "Bondent Endo Z Tungsten Carbide Burs - 25mm",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentEndoZ.avif",
-		"price": 800,
-		"decreption": "Bondent Endo Z Tungsten Carbide Burs are precision-engineered cutting instruments designed for efficient and precise removal of dental materials during endodontic procedures. Crafted by Bondent, a trusted name in dental technology, these tungsten carbide burs offer durability, sharpness, and a design tailored for endodontic applications. "
-	},
-
-	{
-		"id":115 ,
-		"name": "Bondent eHeater Root Canal Obturation System",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondenteHeaterRoot.avif",
-		"price": 24000,
-		"decreption": "The Bondent eHeater Root Canal Obturation System is an advanced and reliable device designed to streamline and optimize the root canal obturation process. Crafted by Bondent, a reputable name in dental technology, this system combines cutting-edge features to ensure precision, efficiency, and user-friendly operation during endodontic procedures. "
-	},
-
-	{
-		"id":116 ,
-		"name": "Bondent eFiller Root Canal Obturation System",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondenteFillerRoot.avif",
-		"price": 29500,
-		"decreption": "The Bondent eFiller Root Canal Obturation System is an advanced endodontic device designed to streamline and enhance the root canal obturation process. Crafted by Bondent, a reputable name in dental technology, this system combines precision, efficiency, and user-friendly features to facilitate optimal outcomes in endodontic procedures. "
-	},
-	{
-		"id":117 ,
-		"name": "Bondent CC Premium V.EU Assorted NiTi Rotary Files - 21mm",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentCCPremiumV.EU.avif",
-		"price": 1500,
-		"decreption": " The Bondent CC Premium V.EU Assorted NiTi Rotary Files represent a pinnacle in endodontic instrumentation, meticulously engineered for precision and efficiency in root canal treatments. This assorted NiTi rotary file set is designed to meet the exacting standards of contemporary endodontics, offering versatility and reliability."
-	},
-	{
-		"id":118 ,
-		"name": "Bondent M3-Safe Path Glidepath Files - 21mm 10",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentM3-SafePath.avif",
-		"price": 800,
-		"decreption": " Bondent M3-Safe Path Glidepath Files are advanced endodontic instruments designed to establish a safe and efficient glide path during root canal preparation. Created by Bondent, a reputable name in dental technology, these files are engineered with precision and flexibility to navigate and prepare the root canal system for subsequent instrumentation."
-	},
-	{
-		"id":119 ,
-		"name": "Bondent endo block measuring device Endo Block",
-		"brand":  "TOPDENT",
-		"image": "/Product/Bondentendoblock.avif",
-		"price": 800,
-		"decreption": "The Bondent Endo Block Measuring Device, named Endo Block, stands at the forefront of endodontic precision. Designed with meticulous attention to detail, this device revolutionizes endodontic procedures, providing dentists with unparalleled accuracy in measurements for enhanced treatment outcomes. "
-	},
-	{
-		"id":116 ,
-		"name": "Bondent UDG Sonic Pro Root Canal Irrigant Activator",
-		"brand":  "TOPDENT",
-		"image": "/Product/BondentUDGSonicPro.avif",
-		"price": 1800,
-		"decreption": " "
 	}
 
 
